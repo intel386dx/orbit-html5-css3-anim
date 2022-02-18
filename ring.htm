@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!-- Made by i386 DX -->
+ <head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width"/>
+  <title>"Orbit" Loading Animation by i386 DX - CC BY-SA 4.0</title>
+  <!-- +=====================[WARNING!]=======================+ -->
+  <!-- | INSERT BELOW CODE OR YOU WILL NOT SEE THE ANIMATION. | -->
+  <!-- | ALWAYS KEEP RING.CSS FILE ALONGSIDE THIS HTML FILE.  | -->
+  <!-- +======================================================+ -->
+  <link rel="stylesheet" href="./ring.css"/>
+  <style>
+* {
+animation-timing-function: linear;
+font-family: sans-serif;
+}
+.cc {
+animation: vspin 2s infinite linear;
+}
+body {margin:0px;text-align:center;}
+.cclicense, .howtoadd {
+width: 50%;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+background-color: lightgray;
+border: 1px solid black;
+border-radius: 10px;
+}
+ul, ol {
+text-align: left;
+margin-bottom: 5px;
+padding-left: 20px;
+}
+.code {
+display: block;
+overflow: auto;
+font-family: monospace;
+border: 2px inset gray;
+background-color: white;
+word-wrap: nowrap;
+}
+@media only screen and (max-width: 640px) {
+.cclicense, .howtoadd {
+width: inherit;
+margin: 10px;
+}
+@media only screen and (max-width: 359px) {
+* {font-size:12px;}
+}
+}
+  </style>
+ </head>
+ <body>
+   <!-- COPY HERE -->
+   <span id="zrotate" class="rings">
+    <div id="vspin" class="ring1">
+     <div id="xspin" class="ring3">
+      <div id="zspin" class="ring2">
+      </div>
+     </div>
+    </div>
+   </span>
+   <!-- COPY HERE -->
+   <div class="cclicense">
+    <strong>License:</strong>
+    <div xmlns:cc="http://creativecommons.org/ns#" style="margin-top:10px;">
+     This work is marked with 
+     <a href="http://creativecommons.org/publicdomain/zero/1.0?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline;">
+      CC0 1.0
+      <div class="cc" style="display:block;">
+       <img class="ccbadge" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img class="ccbadge" style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/zero.svg?ref=chooser-v1">
+      </div>
+     </a>
+    </div>
+   </div>
+   <div class="howtoadd">
+    <strong>How to Add This Loading Animation to Your Website</strong>
+    <ol>
+     <li>Copy ring.css to the root of your website or wherever you like.<br/>
+     This CSS file is included with this document.
+     </li>
+     <li>
+      Load the ring.css stylesheet into your HTML or CSS file.<br/>
+      HTML:
+      <span class="code">
+      &lt;link rel=&quot;stylesheet&quot; href=&quot;yourwebsite.com/ring.css&quot;/&gt;
+      </span>
+      CSS:
+      <span class="code">
+      @import url("yourwebsite.com/ring.css");
+      </span>
+      Replace "yourwebsite.com/ring.css" with the path where you place the ring.css
+      file.
+     </li>
+     <li>
+      Then, place this code wherever you want the animation to go.
+      <span class="code">
+      &lt;span id="zrotate" class="rings"&gt;
+       &lt;div id="vspin" class="ring1"&gt;
+        &lt;div id="xspin" class="ring3"&gt;
+         &lt;div id="zspin" class="ring2"&gt;
+         &lt;/div&gt;
+        &lt;/div&gt;
+       &lt;/div&gt;
+      &lt;/span&gt;
+      </span>
+     </li>
+    </ol>
+   </div>
+ </body>
+</html>
